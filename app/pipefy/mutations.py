@@ -22,7 +22,7 @@ mutation {{
 
 MUTATION_UPDATE_CARD_FIELD = """
 mutation {{
-  updateCardField(input: {{
+  update_status: updateCardField(input: {{
     card_id: "{card_id}",
     field_id: "status_do_cliente",
     new_value: "{status}"
@@ -31,7 +31,7 @@ mutation {{
       id
     }}
   }}
-  updateCardField(input: {{
+  update_prioridade: updateCardField(input: {{
     card_id: "{card_id}",
     field_id: "prioridade",
     new_value: "{prioridade}"
